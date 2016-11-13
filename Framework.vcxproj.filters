@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{121e5f69-4d86-4113-b28e-5ada581baa32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{def45b5e-50bb-45df-b38e-1d201c762154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="미리 컴파일된 헤더">
+      <UniqueIdentifier>{3d033f55-a187-459a-8f15-c1b06d4f1de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{584f4cdd-8bc9-4864-9868-a21f2526f2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{42d88d9a-6e26-4476-8096-6d3c9baf552a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit">
+      <UniqueIdentifier>{1e8bacb9-142d-4512-abaf-a6421fd85699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\SpriteImage">
+      <UniqueIdentifier>{d4b96017-b477-4dc2-a466-e867cd080a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\Enemy">
+      <UniqueIdentifier>{40a4da46-3801-434c-afde-f7ce27259132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\Player">
+      <UniqueIdentifier>{e2cbfdaa-c219-4b3b-b4d2-e6dede4566cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Unit\Boss">
+      <UniqueIdentifier>{9b6eddd1-3031-43b9-9aa1-689c49e7ec2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{231f770a-372d-43e7-9f2a-453315d12487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\StageScene_0">
+      <UniqueIdentifier>{7b6c7eb0-54db-404f-886b-e9390c2a2615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\StageScene_2">
+      <UniqueIdentifier>{37ea347c-a1de-4f02-9daf-265fc3efe1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\StageScene_1">
+      <UniqueIdentifier>{f312d1a0-8e92-4dd4-816f-b03dc31285bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\LobbyScene">
+      <UniqueIdentifier>{674edee2-287b-4bc7-88dc-2c47f4e48f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameOverScene">
+      <UniqueIdentifier>{8ed335e7-7970-429e-bb31-1c03a6348a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameClearScene">
+      <UniqueIdentifier>{800593e1-4ae3-49eb-bec3-fdcb391c919c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\LoadingScene">
+      <UniqueIdentifier>{490275cf-77dc-493b-a97e-c6219a76180c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpriteImage.h">
+      <Filter>Object\Unit\SpriteImage</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>미리 컴파일된 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>미리 컴파일된 헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScene.h">
+      <Filter>Scene\LobbyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object\Unit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Object\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene_1.h">
+      <Filter>Scene\StageScene_1</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene_2.h">
+      <Filter>Scene\StageScene_2</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene_0.h">
+      <Filter>Scene\StageScene_0</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Scene\GameOverScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearScene.h">
+      <Filter>Scene\GameClearScene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>Scene\LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpList.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2f.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="maincpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteImage.cpp">
+      <Filter>Object\Unit\SpriteImage</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>미리 컴파일된 헤더</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScene.cpp">
+      <Filter>Scene\LobbyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Object\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene_1.cpp">
+      <Filter>Scene\StageScene_1</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene_2.cpp">
+      <Filter>Scene\StageScene_2</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene_0.cpp">
+      <Filter>Scene\StageScene_0</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Scene\GameOverScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearScene.cpp">
+      <Filter>Scene\GameClearScene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Scene\LoadingScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Framework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="아이콘.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
